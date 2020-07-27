@@ -56,9 +56,9 @@ def predict():
 
 
     json_payload = request.json
-    LOG.info(f"JSON payload: {json_payload}")
+    LOG.info("JSON payload: {json_payload}")
     inference_payload = pd.DataFrame(json_payload)
-    LOG.info(f"inference payload DataFrame: {inference_payload}")
+    LOG.info("inference payload DataFrame: {inference_payload}")
     scaled_payload = scale(inference_payload)
     clf = joblib.load("boston_housing_prediction.joblib")
     prediction = list(clf.predict(scaled_payload))

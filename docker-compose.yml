@@ -1,8 +1,0 @@
-version: '3.4'
-
-services:
-  buildingci:cd:
-    image: buildingci:cd
-    build: .
-    ports:
-      - 8000

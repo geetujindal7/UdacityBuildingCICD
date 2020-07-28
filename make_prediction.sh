@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
-PORT=9000
-echo "Port: $PORT"
+# PORT=9000
+# echo "Port: $PORT"
 
 # POST method predict
 curl -d '{  
@@ -25,4 +25,4 @@ curl -d '{
    }
 }'\
      -H "Content-Type: application/json" \
-     -X POST http://0.0.0.0:$PORT/predict
+     -X POST https://devopsazurecicd.azurewebsites.net/predict

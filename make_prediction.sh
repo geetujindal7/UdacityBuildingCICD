@@ -1,12 +1,12 @@
 #!/usr/bin/env bash
 
-<<<<<<< HEAD
-PORT=9000
-echo "Port: $PORT"
-=======
+# <<<<<<< HEAD
 # PORT=9000
 # echo "Port: $PORT"
->>>>>>> e02263760ab291d892b44cfc4ed830b24fc2106f
+# =======
+# # PORT=9000
+# # echo "Port: $PORT"
+# >>>>>>> e02263760ab291d892b44cfc4ed830b24fc2106f
 
 # POST method predict
 curl -d '{  

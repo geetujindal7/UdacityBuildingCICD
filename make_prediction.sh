@@ -30,4 +30,4 @@ curl -d '{
    }
 }'\
      -H "Content-Type: application/json" \
-     -X POST http://buildingcicd.azurewebsites.net/predict
+     -X POST https://buildingcicd.azurewebsites.net/predict
